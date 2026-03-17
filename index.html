@@ -426,6 +426,31 @@
       animation: pulse 2s ease infinite;
     }
 
+    /* SECTION 2: cv */
+    .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 32px;
+    background: transparent;
+    border: 1px solid #c9a84c;
+    color: #c9a84c;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn:hover {
+    background: #c9a84c;
+    color: #0f0f0f;
+    }
+
     /* ─── SECTION 2: Project Work ───────────────────────────────────── */
     #project-work { background: var(--bg-card); }
 
@@ -901,9 +926,11 @@
     <a class="nav-brand" href="#">Portfolio</a>
     <ul class="nav-links">
       <li><a href="#biographical">Biographical</a></li>
+      <li><a href="#CV">CV</a></li>
       <li><a href="#project-work">Projects</a></li>
       <li><a href="#professional-dev">Development</a></li>
       <li><a href="#reflective">Reflective</a></li>
+      
     </ul>
   </nav>
 
@@ -1048,6 +1075,21 @@
 ```
 
   </section>
+
+  <div class="section-divider"></div>
+<!-- ──────────────────────────────────────────────────────────────── -->
+
+  <!-- SECTION 2: CURRICULUM                                          -->
+
+  <!-- ──────────────────────────────────────────────────────────────── -->
+  <section id="CV" class="page-section">
+<div class="section-label">02 — Curriculum Vitae</div>
+<a href="URL_DEL_DOCUMENTO" target="_blank" class="btn" style="margin-top: 20px;">
+  Open Document →
+</a>
+
+
+</section>
 
   <div class="section-divider"></div>
 
@@ -1398,7 +1440,7 @@
         <div class="peer-card-header">
           <div class="peer-avatar">
             <!-- Peer icon: set src to image path -->
-            <img src="" alt="Peer icon" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;">
+            <img src="https://github.com/sofiavillasan/Ana-Sofia-Portfolio/blob/main/peer-review.png?raw=true" alt="Peer icon" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;">
           </div>
           <div class="peer-meta">
             <span class="sub-label" style="margin:0;">Evaluator</span>
@@ -1409,22 +1451,6 @@
         <div class="peer-body">
           <!-- Replace with the evaluation text -->
           <p class="peer-text">It's been a pleasure working with Sofia on our Master’s of Business Informatics program, especially on the assignment and presentation. She really stepped up for our team by taking charge of the IT Service Management presentation and its design, and honestly, we all loved how it turned out. She's a great team player who always does what needs to be done to get the best result for the group. Whenever anyone needed a hand, Sofia was right there ready to help without being asked. I’ll also mention her efforts throughout our in-class activities this semester - she always brought great real life examples and focus.</p>
-        </div>
-      </div>
-
-      <!-- Peer card 2 -->
-      <div class="peer-card">
-        <div class="peer-card-header">
-          <div class="peer-avatar">
-            <img src="" alt="Peer icon" style="width:100%;height:100%;object-fit:cover;display:block;border-radius:50%;">
-          </div>
-          <div class="peer-meta">
-            <span class="sub-label" style="margin:0;">Evaluator</span>
-            <div class="peer-name">Peer Name</div>
-          </div>
-        </div>
-        <div class="peer-body">
-          <p class="peer-text">Write the peer evaluation here. Describe what this person observed about your work, skills, and contributions throughout the course or project.</p>
         </div>
       </div>
 
